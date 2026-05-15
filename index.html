@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>药师法门 · 养生 | Medicine Buddha Wellness</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav id="main-nav" class="nav"></nav>
+
+  <main class="page-container fade-in">
+    <section id="shichen-hero" class="section"></section>
+    <section id="shichen-timeline" class="section"></section>
+    <section id="jieqi-card" class="section"></section>
+  </main>
+
+  <footer id="footer" class="footer"></footer>
+  <nav id="bottom-nav" class="bottom-nav"></nav>
+
+  <script type="module">
+    import { renderNav, renderFooter } from './js/app.js';
+    import { renderShichenHero, renderShichenTimeline, startAutoRefresh } from './js/shichen.js';
+    import { renderJieqiCard } from './js/jieqi.js';
+
+    renderNav('home');
+    renderShichenHero();
+    renderShichenTimeline();
+    renderJieqiCard();
+    renderFooter();
+    startAutoRefresh();
+
+    document.addEventListener('langchange', () => {
+      renderNav('home');
+      renderShichenHero();
+      renderShichenTimeline();
+      renderJieqiCard();
+      renderFooter();
+    });
+  </script>
+</body>
+</html>
