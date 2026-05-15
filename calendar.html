@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>日历 | Calendar — 药师法门养生</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav id="main-nav" class="nav"></nav>
+
+  <main class="page-container fade-in">
+    <div id="calendar-header" class="section"></div>
+    <div id="calendar-grid" class="section"></div>
+    <div id="jieqi-summary" class="section"></div>
+    <div id="daily-view" class="section" style="display:none"></div>
+  </main>
+
+  <footer id="footer" class="footer"></footer>
+  <nav id="bottom-nav" class="bottom-nav"></nav>
+
+  <script type="module">
+    import { renderNav, renderFooter } from './js/app.js';
+    import { initCalendar } from './js/calendar.js';
+    renderNav('calendar');
+    initCalendar();
+    renderFooter();
+    document.addEventListener('langchange', () => {
+      renderNav('calendar');
+      initCalendar();
+      renderFooter();
+    });
+  </script>
+</body>
+</html>
