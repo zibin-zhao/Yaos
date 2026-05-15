@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>阅读 | Readings — 药师法门养生</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav id="main-nav" class="nav"></nav>
+
+  <div id="reading-progress-bar" class="reading-progress-bar">
+    <div id="reading-progress-fill" class="reading-progress-bar__fill"></div>
+  </div>
+
+  <div class="readings-layout">
+    <aside id="readings-sidebar" class="readings-sidebar"></aside>
+    <main id="readings-content" class="readings-content fade-in"></main>
+  </div>
+
+  <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+  <button id="sidebar-toggle" class="sidebar-toggle" aria-label="Toggle table of contents">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+    目录 / Contents
+  </button>
+
+  <footer id="footer" class="footer"></footer>
+  <nav id="bottom-nav" class="bottom-nav"></nav>
+
+  <script type="module">
+    import { renderNav, renderFooter } from './js/app.js';
+    import { initReadings } from './js/readings.js';
+
+    renderNav('readings');
+    initReadings();
+    renderFooter();
+
+    document.addEventListener('langchange', () => {
+      renderNav('readings');
+      initReadings();
+      renderFooter();
+    });
+  </script>
+</body>
+</html>
