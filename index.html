@@ -12,6 +12,7 @@
   <meta property="og:description" content="药师法门健康养生随许法 — 大愿法师讲述。Auto-detect your current 时辰 and 节气 for personalized health advice.">
   <meta property="og:type" content="website">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪷</text></svg>">
+  <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -45,6 +46,10 @@
       renderJieqiCard();
       renderFooter();
     });
+
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js');
+    }
   </script>
 </body>
 </html>

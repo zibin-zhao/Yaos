@@ -1,0 +1,18 @@
+{
+  "name": "药师法门 · 养生",
+  "short_name": "药师养生",
+  "description": "Medicine Buddha Health Cultivation - 时辰 & 节气 wellness guide",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FAF8F5",
+  "theme_color": "#B8860B",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪷</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
