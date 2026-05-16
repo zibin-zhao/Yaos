@@ -626,7 +626,7 @@ export const JIEQI_DATA = [
     },
     herbalRecipe: {
       zh: '对于所有的人都适合的大雪这个节气当然就是八珍汤了，八珍汤也就是四君子汤加上四物汤，四君子能够补气，四物能够补血，气血双补。当然如果你身体很健康，就在大雪这个节气里面喝一剂八珍汤就好了，如果觉得想利用大雪这个节气来进补的话，就整个十五天你都喝这个八珍汤，一般都是不会上火的，当然如果你本来就湿热很重，你要先清湿热。',
-      en: 'Eight-Treasure Soup is suitable for everyone during Major Snow: Four Gentlemen Decoction (Ginseng, Atractylodes, Poria, Licorice) for qi + Four Substances Decoction (Angelica, Ligusticum, White Peony, prepared Rehmannia) for blood. If healthy, one dose suffices; for tonification, drink throughout the 15-day period. Generally won\'t cause excess heat, but clear dampness-heat first if needed.'h qi and blood.'
+      en: 'Eight-Treasure Soup is suitable for everyone during Major Snow: Four Gentlemen Decoction (Ginseng, Atractylodes, Poria, Licorice) for qi + Four Substances Decoction (Angelica, Ligusticum, White Peony, prepared Rehmannia) for blood. If healthy, one dose suffices; for tonification, drink throughout the 15-day period. Generally won\'t cause excess heat, but clear dampness-heat first if needed.'
     },
     exercise: {
       zh: '在大雪这个节气里面不要熬夜，不要剧烈运动，精神内守。',
