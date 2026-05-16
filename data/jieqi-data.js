@@ -112,8 +112,8 @@ export const JIEQI_DATA = [
       en: 'Herbal food therapy: drink tea made from wolfberry, astragalus and chrysanthemum.'
     },
     herbalRecipe: {
-      zh: '枸杞子、黄芪、菊花泡水喝。',
-      en: 'Wolfberry, astragalus, chrysanthemum infused in water.'
+      zh: '食疗可以用枸杞子、黄芪，然后菊花泡水喝。雨水这个节气里面我们应该要多锻炼肺经，因为容易有倒春寒。',
+      en: 'Food therapy: wolfberry, astragalus, and chrysanthemum steeped in water. Exercise the lung meridian during Rain Water to guard against late spring cold.'
     },
     exercise: {
       zh: '雨水这个节气里面我们应该要多锻炼肺经，因为容易有倒春寒。',
@@ -301,8 +301,8 @@ export const JIEQI_DATA = [
       en: 'One dose of Four Substances Decoction can help delay aging; those with weak heart function may take more during this period. Avoid iced drinks as internal yang floats outward.'
     },
     herbalRecipe: {
-      zh: '四物汤：当归、川芎、白芍和熟地。能够补血，心血不足、心脏功能不太好的人可以借助芒种这个节气来补。',
-      en: 'Four Substances Decoction: Angelica, Ligusticum, white peony, and prepared Rehmannia. Nourishes blood, especially for those with heart-blood deficiency.'
+      zh: '千古名方四物汤来补血——当归、川芎、白芍和熟地。心血不足、心脏功能比较弱的人就可以多吃几天，在这个节气里面吃都可以。芒种的时候，因为天气炎热起来，所以我们体内的阳气就浮到表面上来抵御外在气候的炎热，所以是外阳内阴，其实里面还是很阴的，阳气不足了，我们就图痛快总是喝很多冷饮，其实就让里面更凉了，这个是一种伤害体内元气的方法。',
+      en: 'The classic Four Substances Decoction for nourishing blood: Angelica (Dang Gui), Ligusticum (Chuan Xiong), White Peony (Bai Shao), and Prepared Rehmannia (Shu Di). Those with heart-blood deficiency can take it for several days during this solar term. During Grain in Ear, as the weather heats up, yang qi floats to the surface to resist external heat — internally we remain yin-deficient. Avoid excess cold drinks as they further damage internal yuan qi.'
     },
     exercise: {
       zh: '心血不足的人可以借助芒种这个节气，让心脏功能旺起来。',
@@ -382,7 +382,7 @@ export const JIEQI_DATA = [
       en: 'Morning: ginger tea (sliced ginger steeped in hot water with honey). Evening: one Jin Gui Shen Qi Wan (kidney qi pill). For poor appetite in heat: roast barley in iron wok until slightly charred, store in jar, steep with hot water daily as barley tea.'
     },
     herbalRecipe: {
-      zh: '早上一碗姜汤：生姜切细，用开水泡，温的时候放一点蜂蜜兑着喝。晚上一粒金匮肾气丸（桂附地黄丸），每天晚上临睡前一小时候吃一粒。大麦茶：用大麦放在铁锅里面炒，炒到微微的焦，然后用罐子装起来，每天用开水反复冲泡。',
+      zh: '一切阳虚的人都可以用好大暑天的大火和心中的火，把体内的寒气能够去掉，当然就是早上一碗汤，晚上一粒药这样就可以了。早上一碗汤，就是生姜，你把生姜切细，用开水泡，温的时候放一点蜂蜜兑着喝就可以了。晚上一粒药就是金匮肾气丸，金匮肾气丸有时候也叫做桂附地黄丸，都是一种，买那种金匮肾气丸，每天晚上临睡前一小时候吃一粒，这样就把大暑这个节气的火好好地运用起来了，一点都没有浪费，把体内的寒气也赶跑掉了。还有暑热难挡，所以往往不开胃，胃口不好，就可以喝大麦茶了，很简单。用大麦放在铁锅里面炒，炒到微微的焦，然后用罐子装起来，每一天你可以用开水反复冲泡，又香又好喝还能养胃、开胃，当然也可以加水去把它煮沸再来喝也行。',
       en: 'Morning ginger soup: slice ginger, steep in hot water, add honey when warm. Evening: Jin Gui Shen Qi Wan (Gui Fu Di Huang Wan), one pill 1 hour before sleep. Barley tea: dry-roast barley until slightly charred, steep in hot water.'
     },
     exercise: {
@@ -490,7 +490,7 @@ export const JIEQI_DATA = [
       en: 'Boil Astragalus, strain, add Job\'s tears, hyacinth beans, mung beans, lotus seeds, jujube dates, and wolfberry near the end. A balanced porridge for long-term use. For insomnia: crush Ziziphus seeds, cook with millet as porridge, add honey, eat 1 hour before sleep.'
     },
     herbalRecipe: {
-      zh: '养肺粥：黄芪煮水弃渣留汁，加薏苡仁、扁豆、绿豆、莲子、大枣，将要熟的时候再放一点枸杞子进去煮粥。安眠方：酸枣仁捣碎加小米煮粥，吃以前放一点蜂蜜，睡觉以前一个小时喝。',
+      zh: '秋分这个时候养生的食疗方，可以用一点黄芪，用黄芪来煮水，煮水以后弃渣留汁（水要多放一点，后面还要放其他的），弃渣留汁以后，汁里面加上薏苡仁、扁豆、绿豆、莲子、大枣，将要熟的时候再放一点枸杞子进去，这样来煮粥吃能够长期吃都不会燥、不会腻，而且因为它寒热食物都有，搭配得非常好，尤其适合于在秋分的时候吃的一个食疗方法。对于经常失眠的人，或者睡眠很差的人，就可以用酸枣仁，捣碎它然后加上小米来煮粥，吃以前放一点蜂蜜，在睡觉以前的一个小时喝，就能够帮助我们改善睡眠。',
       en: 'Lung-nourishing porridge: Astragalus water with Job\'s tears, hyacinth beans, mung beans, lotus seeds, dates, wolfberry. Sleep aid: crushed Ziziphus with millet porridge and honey, 1 hour before bed.'
     },
     exercise: {
@@ -625,8 +625,8 @@ export const JIEQI_DATA = [
       en: 'Eight-Treasure Soup: Four Gentlemen (qi) + Four Substances (blood). Drink one dose if healthy, or daily for the full 15 days for deep tonification. Clear dampness-heat first if you have it.'
     },
     herbalRecipe: {
-      zh: '八珍汤：四君子汤（人参、白术、茯苓、甘草）加上四物汤（当归、川芎、白芍、熟地），气血双补。',
-      en: 'Eight-Treasure Soup: Four Gentlemen (Ginseng, Atractylodes, Poria, Licorice) + Four Substances (Angelica, Ligusticum, White Peony, prepared Rehmannia). Tonifies both qi and blood.'
+      zh: '对于所有的人都适合的大雪这个节气当然就是八珍汤了，八珍汤也就是四君子汤加上四物汤，四君子能够补气，四物能够补血，气血双补。当然如果你身体很健康，就在大雪这个节气里面喝一剂八珍汤就好了，如果觉得想利用大雪这个节气来进补的话，就整个十五天你都喝这个八珍汤，一般都是不会上火的，当然如果你本来就湿热很重，你要先清湿热。',
+      en: 'Eight-Treasure Soup is suitable for everyone during Major Snow: Four Gentlemen Decoction (Ginseng, Atractylodes, Poria, Licorice) for qi + Four Substances Decoction (Angelica, Ligusticum, White Peony, prepared Rehmannia) for blood. If healthy, one dose suffices; for tonification, drink throughout the 15-day period. Generally won\'t cause excess heat, but clear dampness-heat first if needed.'h qi and blood.'
     },
     exercise: {
       zh: '在大雪这个节气里面不要熬夜，不要剧烈运动，精神内守。',

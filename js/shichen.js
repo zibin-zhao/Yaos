@@ -186,10 +186,12 @@ export function renderShichenTimeline() {
 // startAutoRefresh
 // ---------------------------------------------------------------------------
 
+let _refreshTimer = null;
+
 export function startAutoRefresh() {
-  setInterval(() => {
+  if (_refreshTimer) clearInterval(_refreshTimer);
+  _refreshTimer = setInterval(() => {
     renderShichenHero();
-    // Re-render timeline to update active state if shichen changes
     renderShichenTimeline();
   }, 60 * 1000);
 }

@@ -11,6 +11,8 @@
 
 import { t, getLang, initLangToggle } from './i18n.js';
 
+window.addEventListener('langchange', () => _syncLangToggleActiveClass());
+
 // ---------------------------------------------------------------------------
 // 时辰 (Shichen) utilities
 // ---------------------------------------------------------------------------
@@ -115,14 +117,8 @@ export function renderNav(activePage) {
   _renderTopNav(activePage);
   _renderBottomNav(activePage);
 
-  // Wire up language toggle — initLangToggle uses class "active"; we also
-  // keep lang-toggle__btn--active in sync via the langchange event.
   initLangToggle();
   _syncLangToggleActiveClass();
-
-  window.addEventListener('langchange', () => {
-    _syncLangToggleActiveClass();
-  });
 }
 
 /** Sync .lang-toggle__btn--active to match the currently selected language. */

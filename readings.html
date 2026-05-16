@@ -7,6 +7,10 @@
   <meta name="description" content="药师法门健康养生随许法 — 大愿法师讲述。Medicine Buddha health cultivation practices.">
   <meta name="theme-color" content="#B8860B">
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta property="og:title" content="阅读 | Readings — 药师法门养生">
+  <meta property="og:description" content="药师法门健康养生随许法 — 大愿法师讲述。Auto-detect your current 时辰 and 节气 for personalized health advice.">
+  <meta property="og:type" content="website">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪷</text></svg>">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -40,7 +44,7 @@
     initReadings();
     renderFooter();
 
-    document.addEventListener('langchange', () => {
+    window.addEventListener('langchange', () => {
       renderNav('readings');
       initReadings();
       renderFooter();
